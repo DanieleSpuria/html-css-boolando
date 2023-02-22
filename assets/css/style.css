@@ -17,7 +17,7 @@ img{
   width: 100%;
 }
 
-span{
+span:not(.heart span){
   display: block;
 }
 
