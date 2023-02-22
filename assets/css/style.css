@@ -28,6 +28,14 @@ body{
   margin-bottom: 50px;
 }
 
+.mxr{
+  margin-right: 8px;
+}
+
+.mxl{
+  margin-left: 8px;
+}
+
 
 
 /* HEADER */
@@ -36,6 +44,10 @@ header{
   align-items: center;
   height: 80px;
   background-color: #ff6900;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 header .container{
@@ -43,15 +55,31 @@ header .container{
   justify-content: space-between;
 }
 
-header .container nav ul{
+header ul{
   display: flex;
   list-style: none;
+  font-style: 18px;
+  font-weight: 800;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header img{
+  width: 130px;
 }
 
 
 
 
+
 /* MAIN */
+main{
+  margin-top: 80px;
+}
+
 .col{
   float: left;
   width: calc(100% / 3);
