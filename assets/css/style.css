@@ -142,6 +142,7 @@ main{
   float: left;
   width: calc(100% / 3);
   height: 605px;
+  min-width: 300px;
 }
 
 .card{
@@ -191,6 +192,10 @@ main{
 
 .text span span{
   display: inline-block;
+}
+
+main .container:last-child .square.sustainability{
+  left: 0px;
 }
 
 
