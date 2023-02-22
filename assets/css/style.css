@@ -194,7 +194,7 @@ main{
   display: inline-block;
 }
 
-main .container:last-child .square.sustainability{
+main .container .col:last-child .square.sustainability{
   left: 0px;
 }
 
