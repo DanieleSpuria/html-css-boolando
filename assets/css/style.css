@@ -38,12 +38,12 @@ header{
   background-color: #ff6900;
 }
 
-.top-bar{
+header .container{
   display: flex;
   justify-content: space-between;
 }
 
-.top-bar nav ul{
+header .container nav ul{
   display: flex;
   list-style: none;
 }
